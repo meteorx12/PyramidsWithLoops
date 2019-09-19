@@ -1,4 +1,4 @@
-/*
+/* Mark Meier
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
  * Printing pyramids using loops. It kind-of works. 
