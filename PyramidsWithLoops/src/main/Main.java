@@ -14,12 +14,23 @@ package main;
 public class Main {
 
 	public static void main(String[] args) {
-		int lines = 5;
-		for (int i = 0; i < lines; i++) {
-			for (int j = 0; j < i+1; j++) {
-				System.out.print(j);
-			}
-			System.out.println("");
+		 {
+			 //Setting the integers
+		     int i, j, k;
+		     {
+		     for (i = 1; i <= 5; i++)
+		     {
+		         for (j = 5; j > i; j--)
+		         {
+		             System.out.printf(" ");
+		         }
+		         for (k = 1; k <= 2 * i - 1; k++)
+		         {
+		          System.out.printf("%d", i);
+		         }
+		         System.out.printf("\n");
+		     }
+		  }
 		}
-	}
-}
+		  }
+		}
